@@ -1,0 +1,38 @@
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.content {
+  background: center / cover no-repeat url(/public/images/header-background.png);
+  max-width: 1200px;
+  width: 100%;
+  /* height: 655px; */
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  max-width: 330px;
+  width: 100%;
+  color: #ffffff;
+  padding: 200px 0 215px 0;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+button {
+  margin-top: 40px;
+  background-color: #ed241a;
+}

@@ -1,0 +1,18 @@
+nav {
+	max-width: 480px;
+	width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav__item-active {
+  color: #ed241a;
+}
