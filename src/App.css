@@ -8,10 +8,17 @@
   box-sizing: border-box;
 }
 
+html {
+	height: 3000px;
+}
+
 h2 {
   font-family: "Play", sans-serif;
   font-size: 36px;
   line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
 }
 
 h3,
