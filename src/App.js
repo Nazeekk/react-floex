@@ -1,4 +1,5 @@
 import "./App.css";
+import FlowersComponent from "./components/FlowersComponent/FlowersComponent";
 import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
 import ServicesComponent from "./components/ServicesComponent/ServicesComponent";
 
@@ -35,11 +36,40 @@ const servicesCards = [
   },
 ];
 
+const shopItems = [
+  {
+    title: "Букет рожевих півонії 15 шт",
+    imgSrc: "shopitem-1",
+    price: "850",
+  },
+  {
+    title: "Букет мікс тюльпан (51шт)",
+    imgSrc: "shopitem-2",
+    price: "1 950",
+  },
+  {
+    title: "Букет із 49 еквадорської троянди Люсьєна.",
+    imgSrc: "shopitem-3",
+    price: "7 350",
+  },
+  {
+    title: "Букет з 25 троянд Алама-де-Арагон",
+    imgSrc: "shopitem-4",
+    price: "2 169",
+  },
+  {
+    title: "Букет 25 рожевих троянд",
+    imgSrc: "shopitem-5",
+    price: "1 125",
+  },
+];
+
 function App() {
   return (
     <>
       <HeaderComponent />
       <ServicesComponent servicesCards={servicesCards} />
+      <FlowersComponent shopItems={shopItems} />
     </>
   );
 }

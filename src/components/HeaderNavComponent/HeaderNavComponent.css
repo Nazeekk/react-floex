@@ -1,14 +1,14 @@
 nav {
-	max-width: 480px;
-	width: 100%;
+  max-width: 480px;
+  width: 100%;
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
 }
 
-li {
+nav ul li {
   font-size: 18px;
   cursor: pointer;
 }

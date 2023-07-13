@@ -1,0 +1,39 @@
+.flowers__item {
+  background-color: #f8f8f8;
+  max-width: 300px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  height: 490px;
+  position: relative;
+}
+
+.flowers-image {
+  max-width: 240px;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flowers__item-content p {
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.flowers-bottom {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  margin-bottom: 0;
+  bottom: 20px;
+  width: 80%;
+}
+
+.flowers-price {
+  font-size: 28px;
+  line-height: 28px;
+}

@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-html {
-	height: 3000px;
-}
-
 h2 {
   font-family: "Play", sans-serif;
   font-size: 36px;

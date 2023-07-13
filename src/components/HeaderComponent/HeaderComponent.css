@@ -1,38 +1,46 @@
-.inner-wrapper {
+.header__inner {
+  position: sticky;
+  background-color: #ffffff;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header__inner-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
 }
 
-.content {
+.header__content {
   background: center / cover no-repeat url(/public/images/header-background.png);
   max-width: 1200px;
   width: 100%;
-  /* height: 655px; */
   margin: 0 auto;
 }
 
-.content-wrapper {
+.header__content-wrapper {
   max-width: 330px;
   width: 100%;
   color: #ffffff;
   padding: 200px 0 215px 0;
 }
 
-h3 {
+.header__content-wrapper h3 {
   font-size: 28px;
   line-height: 28px;
   font-weight: 700;
 }
 
-p {
+.header__content-wrapper p {
   margin-top: 20px;
   font-size: 18px;
   line-height: 22px;
 }
 
-button {
+.header__content-wrapper button {
   margin-top: 40px;
   background-color: #ed241a;
+  cursor: pointer;
 }

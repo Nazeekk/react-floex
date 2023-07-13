@@ -4,7 +4,7 @@ import React from "react";
 
 const ServicesComponent = ({ servicesCards }) => {
   return (
-    <section>
+    <section className="services">
       <h2>Наші послуги</h2>
       <div className="cards">
         <div className="container cards-wrapper">

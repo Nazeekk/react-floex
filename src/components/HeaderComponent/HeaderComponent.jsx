@@ -7,17 +7,17 @@ const navItems = ["Головна", "Букети", "Про нас", "Конта
 const HeaderComponent = () => {
   return (
     <header>
-      <div className="inner">
-        <div className="container inner-wrapper">
+      <div className="header__inner">
+        <div className="container header__inner-wrapper">
           <div className="logo">
             <img src="images/logo.svg" alt="" />
           </div>
           <HeaderNavComponent navItems={navItems} />
         </div>
       </div>
-      <div className="content">
+      <div className="header__content">
         <div className="container">
-          <div className="content-wrapper">
+          <div className="header__content-wrapper">
             <h3>Не знаєте, який букет обрати?</h3>
             <p>
               Отримайте професійну консультацію з флористом від FloEx та

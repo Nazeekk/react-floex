@@ -1,0 +1,14 @@
+.flowers {
+  background-color: #ff8d8d;
+	margin-top: 100px;
+}
+
+.flowers h2 {
+  padding-top: 60px;
+  color: #ffffff;
+}
+
+.flowers-container {
+	max-width: 1080px;
+	overflow: hidden;
+}
