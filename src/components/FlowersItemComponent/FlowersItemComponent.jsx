@@ -12,13 +12,13 @@ const FlowersItemComponent = ({ title, imgSrc, price }) => {
         <p>{title}</p>
         <div className="flowers-bottom">
           <span className="flowers-price">{price} грн</span>
-          <a href="#">
+          <button href="/">
             <img
               src="/images/shopcart.svg"
               alt="shopcart.svg"
               className="shopcart"
             />
-          </a>
+          </button>
         </div>
       </div>
       {/* <img src={imgSrc} alt={title} className="flowers-image" /> */}
